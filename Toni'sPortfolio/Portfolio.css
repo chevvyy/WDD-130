@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Avenir:wght@0,400;0,700;1,400&display=swap');
+
+
+:root {
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Avenir";
+    --paragraph-font: Avenir;
+  
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: #133f32;  /* headlines on a white background */ 
+    --headline-color-on-color: white; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #12664F  ;
+    --nav-link-color: #396E94;
+    --nav-background-color: #D4AC0D;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #396E94;
+  }
+
+
+body{
+}
+
+.font{
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white)
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+}
+
+ul{
+    padding-left: 0px;
+}
+
+hr{
+    border: 1px solid black;
+}
+
+.center{
+    text-align: center;
+    font-size: 400%;
+}
+
+header{
+    border: 1px solid black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+li{
+    border: 1px solid blue;
+    float: left;
+}
