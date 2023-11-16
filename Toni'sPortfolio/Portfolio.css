@@ -30,7 +30,6 @@ body{
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--headline-color-on-white);
 }
 
 ul{
@@ -55,4 +54,11 @@ header{
 li{
     border: 1px solid blue;
     float: left;
+}
+
+.title{
+    text-align: left;
+    margin-left: 10%;
+    color: rgb(23, 83, 23);
+    line-height: 1em;
 }
