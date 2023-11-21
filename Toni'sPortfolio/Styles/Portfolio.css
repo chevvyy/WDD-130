@@ -3,6 +3,8 @@
 
 
 :root {
+    --navbarcolor: blue;
+    --textcolor: #12664F;
   }
 
 
@@ -16,14 +18,14 @@ body{
 .title{
     text-align: center;
     font-size: 500%;
-    color: #12664F;
+    color: var(--textcolor);
     font-family: 'Avenir';
 }
 
 .title2{
     text-align: center;
     font-size: 200%;
-    color: #12664F;
+    color: var(--textcolor);
     font-family: 'Avenir';
 }
 
