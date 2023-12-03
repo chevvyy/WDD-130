@@ -329,6 +329,7 @@ footer .social img{
     z-index: 1;
     width: 100%;
     max-height: 100%;
+    box-shadow: 5px 5px rgb(81, 81, 81);
 }
 
 .left1 p, .left2 p{
@@ -337,6 +338,7 @@ footer .social img{
     z-index: 2;
     background-color: rgb(170, 170, 129);
     border: 2px black solid;
+    box-shadow: 5px 5px rgb(81, 81, 81);
 }
 
 .right1 img, .right2 img{
@@ -345,6 +347,7 @@ footer .social img{
     z-index: 1;
     width: 100%;
     max-height: 100%;
+    box-shadow: 5px 5px rgb(149, 149, 149);
 }
 
 .right1 p, .right2 p{
@@ -353,6 +356,7 @@ footer .social img{
     z-index: 2;
     background-color: rgb(170, 170, 129);
     border: 2px black solid;
+    box-shadow: 5px 5px rgb(81, 81, 81);
 }
 
 
